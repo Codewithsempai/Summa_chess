@@ -1,119 +1,58 @@
-# LEGOCRAFT — AI-Powered Artisan Marketplace
+# Summa Chess ♟️
 
-**Empowering Rural Artisans Through Digital Commerce**
+Summa Chess is a browser-based chess website built with HTML and CSS. It includes a home page, a chess game page, an About page, and a Services page, along with chess-piece images and other visual assets.
 
-LEGOCRAFT is an online marketplace designed to connect rural artisans with customers. It helps artisans showcase handmade products, manage their shops, and reach more buyers through digital technology and AI-powered features.
+## Pages
 
-## ✨ Features
+- **Home (`index.html`)** — Main landing page.
+- **Chess (`chess.html`)** — Chess game page.
+- **About (`about.html`)** — Information about the project.
+- **Services (`services.html`)** — Services page.
 
-### 🛍️ Buyer Features
-- Browse and search handmade products.
-- Explore products by category and keyword.
-- View product details and add items to the cart.
-- Place orders with Cash on Delivery.
-- Track order history and status.
-- Discover products through the interactive **Build Your Craft** quiz.
+## Built With
 
-### 🧑‍🎨 Seller Features
-- Register and log in using the available registration options.
-- Create and manage product listings.
-- Upload product images.
-- Use AI-assisted product title and description generation.
-- Enhance product images using the AI photo studio.
-- Create product listings using multilingual voice input.
-- Get AI-assisted dynamic pricing suggestions.
-- Manage orders and update their status.
+- HTML
+- CSS
+- Image assets for chess pieces and the website interface
 
-### 🔐 Admin Features
-- View marketplace statistics.
-- Manage users and ban or unban accounts.
-- Remove product listings.
-- View marketplace orders.
+## Run Locally
 
-## 🛠️ Technologies Used
+1. Download or clone this repository.
+2. Keep the `images` folder in the same project directory as the HTML files.
+3. Open `index.html` in a web browser.
 
-- **Frontend:** HTML, Tailwind CSS, JavaScript
-- **Backend:** Node.js, Express.js
-- **Data Storage:** Local JSON file
-- **Additional Tools:** AI-assisted product tools and image processing
-- **Mobile Project:** Android wrapper using Capacitor
+No package installation is required for the static website.
 
-## 📁 Project Structure
+## Deploy with GitHub Pages
+
+1. Upload the project files and the `images` folder to the root of your GitHub repository.
+2. Open **Settings → Pages**.
+3. Under **Build and deployment**, choose **Deploy from a branch**.
+4. Select the `main` branch and the `/(root)` folder, then click **Save**.
+5. Wait for GitHub Pages to publish the site.
+
+The published URL will usually follow this format:
+
+`https://YOUR-USERNAME.github.io/YOUR-REPOSITORY-NAME/`
+
+## Project Structure
 
 ```text
-legocraft-main/
-├── android/          # Android application project
-├── public/           # Website pages and frontend assets
-├── lib/              # Server-side helper modules
-├── data/              # Application data
-├── proc image/        # Project image-processing assets
-├── server.mjs         # Express server and API routes
-├── package.json       # Dependencies and scripts
-├── .env.example       # Environment configuration template
-└── README.md          # Project documentation
+Summa_chess-main/
+├── index.html
+├── chess.html
+├── about.html
+├── services.html
+├── style.css
+└── images/
+    ├── chess-piece images
+    └── website graphics
 ```
 
-## 🚀 Installation and Setup
+## License
 
-### Prerequisites
-- Node.js 18 or later
-- npm
-
-### Steps
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/Codewithsempai/legocraft.git
-   ```
-
-2. Open the project folder:
-
-   ```bash
-   cd legocraft
-   ```
-
-3. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-4. If required, copy `.env.example` to `.env` and configure the environment variables.
-
-5. Start the application:
-
-   ```bash
-   npm start
-   ```
-
-6. Open your browser at:
-
-   `http://localhost:3000`
-
-> Check `package.json` for the exact start command and port configured for your version of the project.
-
-## 🌐 Deployment
-
-LEGOCRAFT requires a Node.js-compatible hosting service because it uses an Express backend and API routes. Deploy the complete application to a service that supports Node.js, and configure its environment variables as required.
-
-**Important:** GitHub Pages alone cannot run the Express backend. Use GitHub to store the source code and a compatible hosting platform to run the application.
-
-## 🔒 Security Notes
-
-- Configure production credentials and environment variables securely.
-- Never commit real passwords, API keys, or secrets to GitHub.
-- Change demo credentials before deploying publicly.
-- Review authentication, file uploads, and data persistence before production use.
-
-## 🎯 Project Objective
-
-To empower rural artisans by providing an accessible digital marketplace where they can showcase their creativity, connect with customers, and grow their businesses using modern web technologies.
-
-## 📄 License
-
-This project is distributed under the MIT License. See the `LICENSE` file for details.
+This project includes an MIT License template in the `LICENSE` file. Fill in the year and copyright holder before using it. Only apply this license if you have the rights to license all relevant project content.
 
 ---
 
-**LEGOCRAFT — Connecting Creativity, Culture, and Customers.**
+Made for chess enthusiasts. ♟️
